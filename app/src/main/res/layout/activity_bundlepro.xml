@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bundlepro">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="186dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eva" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="151dp"
+        android:layout_height="33dp"
+        android:text="Find Friends"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtname"
+        app:srcCompat="@drawable/anju" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/ann"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/kripa"
+        tools:layout_editor_absoluteX="226dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtname"
+        app:srcCompat="@drawable/emaya" />
+
+    <Button
+        android:id="@+id/buttonreg"
+        android:layout_width="276dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/files"
+        android:text="Already have an account"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/file"
+        android:text="Login with facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

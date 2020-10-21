@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tree"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:layout_marginTop="85dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="and enter to a new world of happiness"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="35dp">
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:background="@drawable/pro"
+            android:textColorHint="#fff"
+            android:textSize="20dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+
+
+
+        <EditText
+            android:id="@+id/txtmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:hint="Email"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:textColorHint="#fff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/pro"/>
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    >
+
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:gravity="center"
+        android:background="@drawable/pro"
+       android:textColorHint="#fff"
+        android:textSize="20dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+       >
+
+        <Button
+            android:id="@+id/butnreg"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/proo"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Sign up"
+            android:textSize="15dp" />
+</LinearLayout>
+
+</LinearLayout>
